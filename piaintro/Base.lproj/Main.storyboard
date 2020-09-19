@@ -170,7 +170,7 @@
                                 <rect key="frame" x="0.0" y="766" width="414" height="130"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGh-oe-R0P">
-                                        <rect key="frame" x="270" y="40" width="46" height="51"/>
+                                        <rect key="frame" x="270" y="40" width="60" height="51"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="9K2-gU-e7x"/>
@@ -180,17 +180,23 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUd-9R-d5G">
-                                        <rect key="frame" x="184" y="40" width="46" height="51"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUd-9R-d5G">
+                                        <rect key="frame" x="177" y="35" width="60" height="60"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="ArN-6n-DHh"/>
+                                            <constraint firstAttribute="width" constant="60" id="AzF-dB-zRF"/>
+                                        </constraints>
                                         <state key="normal" title="B">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iu0-pd-5qt">
-                                        <rect key="frame" x="96" y="40" width="46" height="51"/>
+                                        <rect key="frame" x="82" y="40" width="60" height="51"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="7yi-1O-4gg"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="Jz9-1l-W4B"/>
                                             <constraint firstAttribute="width" constant="60" id="jXT-JE-7jV"/>
                                             <constraint firstAttribute="height" constant="60" id="qEo-ln-Cc6"/>
                                         </constraints>
@@ -201,9 +207,11 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="XUd-9R-d5G" firstAttribute="leading" secondItem="Iu0-pd-5qt" secondAttribute="trailing" constant="30" id="oHo-pk-A5Q"/>
+                                    <constraint firstItem="XUd-9R-d5G" firstAttribute="centerX" secondItem="ESM-om-rzV" secondAttribute="centerX" id="D5j-Q1-gjq"/>
+                                    <constraint firstItem="XUd-9R-d5G" firstAttribute="leading" secondItem="Iu0-pd-5qt" secondAttribute="trailing" constant="35" id="GY0-tk-9XJ"/>
+                                    <constraint firstItem="hGh-oe-R0P" firstAttribute="leading" secondItem="XUd-9R-d5G" secondAttribute="trailing" constant="33" id="MqO-s8-E78"/>
+                                    <constraint firstItem="XUd-9R-d5G" firstAttribute="centerY" secondItem="ESM-om-rzV" secondAttribute="centerY" id="k2c-Ir-8zP"/>
                                     <constraint firstAttribute="height" constant="130" id="sGZ-Pd-hT5"/>
-                                    <constraint firstItem="hGh-oe-R0P" firstAttribute="leading" secondItem="XUd-9R-d5G" secondAttribute="trailing" constant="30" id="sLf-gv-Fxp"/>
                                 </constraints>
                             </view>
                         </subviews>
